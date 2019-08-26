@@ -14,4 +14,5 @@
 #   -03E9 = Sound memory
 #   -03FF = Last key pressed
 #   -The memory under 03EA and 03FE may be used to check what were the lasts keys pressed on the keyboard.
-# Other functions will be implemented under this section for better understanding the memory map.
+#
+# Stick around for updates!
