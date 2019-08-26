@@ -1,1 +1,3 @@
-# 8-bit-computer
+# This is a GitHub page for my 8-bit computer project...
+# 
+# Rev1 of the schematic is comming soon. Stay tuned!
