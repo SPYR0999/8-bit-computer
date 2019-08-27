@@ -15,4 +15,4 @@
 #   -03FF = Last key pressed
 #   -The memory under 03EA and 03FE may be used to check what were the lasts keys pressed on the keyboard.
 #
-# Stick around for updates!
+# If you have any suggestions or questions about this project let us know and stick around for updates!
