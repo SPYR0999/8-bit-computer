@@ -4,7 +4,7 @@
 #
 # Please keep in ming that any of the informations below are subject to changes.
 # -The CPU is planned to be an Atmega16a
-# -The video chip was plannes to be an Atmega328p, however, it might be replaced by an Atmega8 or similar in order to have more GPIO pins. The initial concept may be used in aditions of transistors to set higher addresses lines low while reading because of the low memory allocated to it.
+# -The video chip was planned to be an Atmega328p, however, it might be replaced by an Atmega8 or similar in order to have more GPIO pins. The initial concept may be used in aditions of transistors to set higher addresses lines low while reading because of the low memory bloc allocated to it.
 # -The sound chip will either be the video chip outputting a PWM signal or an Attiny85 cummunicating with the video chip through SPI.
 # -The computer will have 32K SRAM located on a single chip. (chip number coming soon)
 #
