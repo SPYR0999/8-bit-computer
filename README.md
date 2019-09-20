@@ -3,10 +3,10 @@
 # Rev1 of the schematic is comming soon. Stay tuned!
 #
 # Please keep in ming that any of the informations below are subject to changes.
-# -The CPU is planned to be an Atmega16a
-# -The video chip was planned to be an Atmega328p, however, it might be replaced by an Atmega8 or similar in order to have more GPIO pins. The initial concept may be used in aditions of transistors to set higher addresses lines low while reading because of the low memory bloc allocated to it. A redefined character set may only be available if a RAM expansion is present.
-# -Sound will be obtained with 3 NE555 multiwaveforms generators in adition of transistors and an atmega8. This whole setup will be on a sound card plugging in the computer via expansion slots.
-# -The computer will have 32K SRAM located on a single chip. The chip will be an UM61256FK-15. An additional 32K RAM might be available on an expansion card.
+# -Two separate Atmega16a will be used for the CPU and the video chip.
+# -Sound will be obtained with 3 NE555 multi-waveforms generators in adition of transistors an Atmega16a, and an Atmega328p. This whole setup will be on a sound card plugging in the computer via expansion slots.
+# -The computer will have 32K SRAM located on a single chip. The chip will be an UM61256FK-15. An additional 32K RAM will be available on an expansion card.
+# -A redefined character set will be available but only is a RAM epansion card is present (the RAM expansion might be on the sound card, if so, the sound memory will also be in this area).
 #
 # Here's the current memory map of the computer:
 #   -0000-7FFF = Total memory
